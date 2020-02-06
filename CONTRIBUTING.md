@@ -10,15 +10,16 @@ l'expression de genre, l'orientation sexuelle, le handicap, l'apparence
 personnelle, la taille physique, l'origine ethnique, l'âge, la religion ou la
 nationalité.
 
-## Nos critères
+Voyons les commandes Git qui vous permettent de manipuler les branche.
 
-Exemples de comportements qui contribuent à créer un environnement positif :
+Lorsque vous initialisez un repo Git, votre code est placé dans la branche principale appelée master par défaut. 
 
-* l'utilisation d'un langage ouvert et accueillant
-* le respect des différents points de vue et expériences vécues
-* accepter poliment les critiques constructives
-* se concentrer sur ce qui est meilleur pour la communauté
-* faire preuve d'empathie envers les autres membres de la communauté
+Pour voir les branches présentes dans votre repo, utilisez la commande git branch. Elle vous retournera les branches présentes, et ajoutera une étoile devant la branche dans laquelle vous êtes placés. Par exemple, dans le 1er repos que vous avez créé dans la partie précédente, la commande git branch n'affichera qu'une seule branche, la branche principale dans laquelle vous vous situez : * master. 
+
+Pour créer une nouvelle branche, il vous suffit d'ajouter le nom de la branche à créer à la suite de la commande précédente :
+
+git branch nouvelle-branche
+
 
 Exemples de comportements non acceptables :
 
